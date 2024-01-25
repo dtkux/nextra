@@ -5,6 +5,10 @@ import Link from 'next/link'
 import type { ReactNode } from 'react'
 import styles from './style.module.css'
 
+function add(firstValue:number, secondValue:number):number {
+  return firstValue + secondValue
+}
+
 export function Feature({
   large,
   centered,
